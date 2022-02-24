@@ -16,7 +16,7 @@ VETERAN CODERZ
 
 -->
 
- ***we are a team of 5 beginners web developer , studying in MH sabu siddik college as Second Year Engineering Student.*** 
+ **we are a team of 5 beginners web developer , studying in MH sabu siddik college as Second Year Engineering Student.** 
  
  
 --> 
