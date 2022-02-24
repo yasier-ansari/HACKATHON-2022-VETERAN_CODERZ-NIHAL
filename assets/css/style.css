@@ -1,0 +1,267 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,800;1,900&display=swap');
+
+
+* {
+  font-family:'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-image: linear-gradient(-243deg, #ff9d5b, #ff7300);
+  box-shadow:0px 0px 15px 0 rgba(59, 37, 255, 0.4);
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+  
+}
+
+a.navbar-brand{
+  size: 20px;
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  margin-left: 30px;
+  white-space: normal;
+  font-size: 25px;
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+  margin: 0px;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.nav-item{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btn{
+  border-radius: 45px;
+  border: 3px solid #5e1381;
+  background-color: #5cd7e0;
+  font-weight: 600;
+}
+
+.arrow-down{
+  width:60px;
+  height:40px;
+  margin:-15px;
+  padding:0px;
+  position:relative;
+  left:50%;
+  bottom:0px;
+  animation: arrow 1.5s 1.5s infinite ease-out alternate;
+  
+}
+
+.arrow-down:hover{
+   animation-play-state: paused;
+}
+
+.left{
+  position:absolute;
+  height:10px;
+  width:40px;
+  background:black;
+  transform:rotate(240deg);
+  top:10px;
+  left:10px;
+  border-radius:4px;
+  transform-origin:5px 50%;
+  animation: leftArrow 3s 3s infinite ease-out alternate;
+}
+
+.right{
+  position:absolute;
+  height:10px;
+  width:40px;
+  background:black;
+  transform:rotate(-55deg);
+  top:10px;
+  left:10px;
+  border-radius:4px;
+  transform-origin:5px 50%;
+  animation: rightArrow 3s 3s infinite ease-out alternate;
+}
+
+
+
+
+@keyframes arrow{
+  0% {
+    bottom:0px;
+  }
+  100%{
+    bottom:10px;
+  }
+}
+
+
+@keyframes leftArrow{
+  0% {
+  }
+  100%{
+    transform:rotate(235deg);
+  }
+}
+
+@keyframes rightArrow{
+  0% {
+  }
+  100%{
+    transform:rotate(-50deg);
+  }
+}
+
+.scroll {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  padding-top: -100px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: -30px;
+  position: relative;
+  
+}
+
+/* hr */
+hr {
+  border: none;
+  height: 2px;
+  background: #000;
+  background: repeating-linear-gradient(90deg,rgb(255, 189, 102),rgb(252, 164, 0) 6px,transparent 6px,transparent 12px);
+}
+
+.headings {
+  font-family: 'Sora', sans-serif;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.sec-head{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/* solution */
+
+.solution .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  background: #f6f6f6;
+  transition: ease-in-out 0.3s;
+}
+.solution .icon-box i {
+  font-size: 32px;
+  padding-right: 20px;
+  line-height: 1;
+}
+.solution .icon-box h3 {
+  font-weight: 700;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  line-height: 1;
+  font-size: 16px;
+}
+.solution .icon-box h3 a {
+  color: #363434;
+  transition: ease-in-out 0.3s;
+}
+.solution .icon-box h3 a:hover {
+  background-color: linear-gradient(-243deg, #ff9d5b, #ff7300);
+}
+.solution .icon-box:hover {
+  background: #eef7fc;
+}
+
+
+
+
+/* contact */
+.contact .info-box {
+  text-align: center;
+  padding: 20px 0 30px 0;
+  background: #fff;
+}
+.contact .info-box i {
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 8px;
+}
+.contact .info-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.contact .php-email-form {
+  padding: 30px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  background: #fff;
+}
+div .gy-4{
+  padding: 20px 20px 20px 20px;
+
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .php-email-form button[type=submit] {
+  background: #5DC6D1;
+  border: 3px solid #621475;
+  padding: 10px 24px;
+  margin: 10px 10px 10px 10px;
+  color: #000;
+  transition: 0.4s;
+  border-radius: 35px;
+}
+.contact .php-email-form button[type=submit]:hover {
+  background:linear-gradient(-243deg, #ff9d5b, #ff7300);
+  box-shadow: 1px solid black;
+  border: 3px solid #ff9d5b;
+
+}
+
+
+/* card */
+.card-img-top {
+  width: 25vh;
+  height: 25vh;
+  object-fit: cover;
+  margin-right: -100px;
+  margin-left: 180px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-center .btn{
+  background:linear-gradient(-243deg, #ff9d5b, #ff7300);
+  box-shadow: 1px solid black;
+  border: 3px solid #ff9d5b;
+}
+
+.text-center .btn:hover{
+  background-image: linear-gradient( -243deg, #5DC6D1 60%, #a9dfff);
+  border: 3.5px solid #6C2E7C;
+  font-size: 35px;
+}

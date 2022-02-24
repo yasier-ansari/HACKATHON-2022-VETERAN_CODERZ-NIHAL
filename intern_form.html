@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/inter_form.css">
+    <title> INTERN </title>
+    
+    </head>
+    <body>
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="assets\svg\preferences-options-settings-gear-svgrepo-com.svg" class="logo" alt="">       Elemo </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+                  <a class="nav-link" href="cour.html"> Course </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Guidance
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="seminar.html">Career guide</a>
+                    <a class="dropdown-item" href="interview.html">Interview guide</a>
+                    <a class="dropdown-item" href="#">Entrepreneur guide</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Exposure
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="intern.html">Internship</a>
+                    <a class="dropdown-item" href="seminar.html">Technical seminar</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="intern_form.html">Work with us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="sig-in.html"><button type="button" class="btn">Sign In</button></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        
+        <!-- <div class="form"> -->
+            <div class="col-lg-12 container"> 
+                <div class="head">
+                <h2> Work With us  <span><img class="img-fluid" src="assets\img\coding.png" alt=""></span></h2>
+                <h6 class="text-muted"> Create better version of yourself </h6>
+                </div>
+                <hr>
+                <!-- form action ==> action="https://getform.io/f/e5e8a210-615c-4bc8-a78f-029f1bcbe5bf"-->
+                <!-- form action for formsubmit.io ==> action="https://formsubmit.co/37749d8e5bec2cf5e00be796479ae9fe"-->
+                <form action="https://getform.io/f/e5e8a210-615c-4bc8-a78f-029f1bcbe5bf" onsubmit="window.open('index.html');" method="POST">
+                    <div class="row justify-content-center">
+                    <div class="col-md-6">
+                    <label for="f_name">First name</label>
+                    <input type="text" id="f_name" placeholder="First name  " name="f_name" pattern="[A-Za-z]{1,32}" required>
+                    </div>
+                    <div class="col-md-6">
+                    <label for="l_name">Last name </label>
+                    <input type="text" id="l_name" placeholder="Last name " name="l_name" pattern="[A-Za-z]{1,32}" required>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label for="p_code"> Pin code </label>
+                        <input type="text" id="p_code" placeholder="Pin code" name="p_code" pattern="[0-9]{7}" required>
+                        </div>
+                        <div class="col-md-6">  
+                            <label for="dob">Date of Birth </label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label for="gender"> Gender </label>
+                        <input type="text" list="gender_list" id="gender" placeholder="...." name="gender" required>
+                        <datalist id="gender_list">
+                            <option value="Male">
+                            <option value="Female">
+                            <option value="Non-Binary">
+                        </datalist>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Mob_number">Mobile number </label>
+                            <input type="tel" pattern="[0-9]{10}" maxlength="10" id="Mob_number" name="Mob_number" required>
+                        </div>  
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                        <label  class="text-left" for="email">Email </label>
+                        <div class="input-group mb-3">
+                            <input type="email" id ="email" placeholder="e-mail" name="email" required>
+                            
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                        <label for="i_post">Intern Post </label>
+                        <input type="text" list="i_list" id="i_post" placeholder="....." name="i_post" required>
+                        <datalist id="i_list">
+                            <option value="Graphic designer">
+                            <option value="UI/UX designer ">
+                            <option value="Back end dev">
+                            <option value="Data scientist">
+                            <option value="Full stack dev">
+                            <option value="System analyst">
+                        </datalist>
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                          <label for="comment"> Why should we hire you ? </label>
+                          <textarea id="comment" maxlength="500" placeholder=" Write atmost 500 words" name="comment" required></textarea>
+                          </div>
+                        </div>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <label class="text-left"> Mode of Internship </label>
+                              <input type="text" list="mode_list" id="mode" placeholder="...." name="mode" required>
+                        <datalist id="mode_list">
+                            <option value="offline">
+                            <option value="online">
+                        </datalist>
+                          </div>
+                          <div class="col-md-6">
+                            <label for="cert">Add your resume/certificate </label>
+                            <input type="file"  id="fileupload" name="file" onchange="uploadFileToServer()" >
+                        </div>
+                    <br>
+                    <div class="row">
+                      <div class="col-md-12">
+                    <button type="submit" class=" text-center btn-submit"> submit </button>
+                    <!-- <button type="submit"class="btn-submit" onclick="sendEmail()"> Submit </button> -->
+                  </div>
+                </div>
+                  </form>
+            </div>
+
+        <!-- </div> -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	
+    </body>
+</html>
