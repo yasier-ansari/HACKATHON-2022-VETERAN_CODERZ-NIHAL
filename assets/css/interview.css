@@ -86,7 +86,7 @@ a.navbar-brand {
 }
 
 .sec1 {
-	background-image: url("/assets/img/courses/blob-scene-haikei-interview.svg");
+	background-image: url("assets/img/courses/blob-scene-haikei-interview.svg");
 	background-repeat: no-repeat;
   /* background-attachment: fixed; */
 	background-size: cover;
