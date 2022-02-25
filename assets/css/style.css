@@ -264,3 +264,32 @@ div .gy-4{
   background-image: linear-gradient( -243deg, #5DC6D1 60%, #a9dfff);
   border: 3.5px solid #6C2E7C;
 }
+
+.eoi {
+  font-size: large;
+  font-family: 'Sora', sans-serif;
+  text-align: center;
+  width: auto;
+  height: 50px;
+  
+
+}
+
+.eoi a {
+  font-size: larger;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.eoi .btn {
+  background:linear-gradient(-243deg, #ff9d5b, #ff7300);
+  box-shadow: 1px solid black;
+  border: 3px solid #ff9d5b;
+}
+.eoi .btn:hover{
+  background-image: linear-gradient( -243deg, #5DC6D1 60%, #a9dfff);
+  border: 3.5px solid #6C2E7C;
+}
