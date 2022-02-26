@@ -262,3 +262,15 @@ div .gy-4 {
 	box-shadow: 1px solid black;
 	border: 3px solid #ff9d5b;
 }
+
+.footer {
+	padding: none;
+	margin: none;
+}
+
+footer  {
+	padding: none;
+	margin: none;
+	padding-top: -10px;
+	margin-top: -12px;
+}
