@@ -25,3 +25,18 @@ VETERAN CODERZ
 https://www.cloudcounselage.com/iac/?utm_source=VETERANCODERZ&utm_medium=hackathon_2022&utm_campaign=CloudCounselage
 
 
+--> 
+(YOUTUBE VIDEO LINK)
+
+https://www.youtube.com/embed/lktZLGZyfjw
+
+-->
+( website link )
+
+https://hyraxxity.github.io/HACKATHON-2022-VETERAN_CODERZ-NIHAL/
+
+
+--> 
+(linkedin)
+
+https://www.linkedin.com/in/veteran-coderz-539049233
