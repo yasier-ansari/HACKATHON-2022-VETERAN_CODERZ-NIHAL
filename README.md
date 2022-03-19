@@ -33,8 +33,9 @@ https://www.youtube.com/embed/lktZLGZyfjw
 -->
 ( website link )
 
-https://hyraxxity.github.io/HACKATHON-2022-VETERAN_CODERZ-NIHAL/
 
+(netlify)
+https://elemo.netlify.app/
 
 --> 
 (linkedin)
